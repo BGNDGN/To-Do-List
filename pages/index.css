@@ -1,0 +1,78 @@
+#Input {
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border: 2px solid black;  
+    border-radius: 20px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.InputButon {
+    display: block;
+    width: 15%;
+    height: 30px;
+    text-decoration: underline;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.InputButon:hover {
+    background-color: rgb(126, 111, 111);
+    color:white;
+    transition: 0.4s;
+}
+
+#Liste {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Texts {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.Sayi {
+    color:black;
+}
+
+.RemoveButon {
+    display: inline;
+    margin-left: 10px;
+    width: 15%;
+    height: 25px;
+    text-decoration: underline;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.RemoveButon:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    transition: 0.4s;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#Text {
+    background-color: rgb(177, 173, 173);
+    width: 35%;
+    padding-right: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    white-space: normal;
+    margin: 0 auto;
+    margin-top: 10px;
+}
